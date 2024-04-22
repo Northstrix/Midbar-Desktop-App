@@ -1482,6 +1482,7 @@ class App(customtkinter.CTk):
                 abet1.configure(state='readonly')
                 abet2 = customtkinter.CTkEntry(master=frame, width=420, font=('Century Gothic', 16), placeholder_text="sourceforge.net/projects/midbar-desktop-app/")
                 abet2.place(x=50, y=270)
+                abet2.configure(state='readonly')
                 abl4 = customtkinter.CTkLabel(master=frame, text="The original app with Firebase support can be found at:", anchor="center", width=420, font=('Century Gothic', 12))
                 abl4.place(x=50, y=350)
                 abet3 = customtkinter.CTkEntry(master=frame, width=400, font=('Century Gothic', 12), placeholder_text="sourceforge.net/projects/midbar-firebase-edition/files/V3.0/")
